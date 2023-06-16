@@ -1,3 +1,3 @@
 import _ from 'lodash';
 
-console.log('am I connnected?');
+alert('am I connnected?');

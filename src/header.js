@@ -6,6 +6,7 @@ header.appendChild(nav);
 
 const logo = document.createElement('div');
 logo.classList.add('logoFont');
+logo.textContent = `Willow's Waffles`;
 nav.appendChild(logo);
 
 const location = document.createElement('div');

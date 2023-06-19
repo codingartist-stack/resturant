@@ -3,11 +3,23 @@
   src: url('./Lobster-Regular.ttf');
 }
 
+/* colors 
+#f8ecd1 - cream
+#deb6ab - peach
+#ac7d88 - purple peach
+#85586f - muted purple
+*/
+
+body {
+  background-color: #f8ecd1;
+}
+
 .navigation {
   display: flex;
   gap: 20px;
   justify-content: space-around;
   align-items: center;
+  background-color: #deb6ab;
 }
 
 .tab {
@@ -15,9 +27,11 @@
 }
 
 .tab:hover {
-  background-color: aquamarine;
+  background-color: #ac7d88;
 }
 
 .logoFont {
   font-family: 'Lobster-Regular';
+  color: #85586f;
+  font-size: 32px;
 }

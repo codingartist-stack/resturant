@@ -4,6 +4,12 @@ const nav = document.createElement('nav');
 nav.classList.add('navigation');
 header.appendChild(nav);
 
+const location = document.createElement('div');
+location.classList.add('tab');
+location.id = 'locationTab';
+location.textContent = 'Hours and Locations';
+nav.appendChild(location);
+
 const home = document.createElement('div');
 home.classList.add('tab');
 home.id = 'homeTab';

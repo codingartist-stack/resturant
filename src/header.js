@@ -4,6 +4,10 @@ const nav = document.createElement('nav');
 nav.classList.add('navigation');
 header.appendChild(nav);
 
+const logo = document.createElement('img');
+logo.classList.add('navLogo');
+nav.appendChild(logo);
+
 const location = document.createElement('div');
 location.classList.add('tab');
 location.id = 'locationTab';

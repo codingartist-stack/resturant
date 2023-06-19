@@ -3,3 +3,11 @@
   gap: 20px;
   justify-content: space-around;
 }
+
+.tab {
+  padding: 10px;
+}
+
+.tab:hover {
+  background-color: aquamarine;
+}

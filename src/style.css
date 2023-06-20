@@ -58,5 +58,9 @@ body {
 .mainLogo:hover,
 .invertLogo:hover {
   color: #f8ecd1;
+  background-color: #85586f;
+}
+
+.selected:hover {
   background-color: #ac7d88;
 }

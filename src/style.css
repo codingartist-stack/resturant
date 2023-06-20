@@ -35,6 +35,7 @@ body {
 }
 
 .tab:hover {
+  color: #f8ecd1;
   background-color: #ac7d88;
 }
 
@@ -54,4 +55,8 @@ body {
 
 .selected {
   background-color: #f8ecd1;
+}
+
+.selected:hover {
+  background-color: #85586f;
 }

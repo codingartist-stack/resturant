@@ -5,13 +5,15 @@ nav.classList.add('navigation');
 header.appendChild(nav);
 
 const logo = document.createElement('div');
-logo.classList.add('logoFont');
+logo.classList.add('mainLogo');
+logo.classList.add('tab');
 logo.textContent = `Willow's Waffles`;
 nav.appendChild(logo);
 
 logo.addEventListener('click', (event) => {
   logo.classList.remove('logoFont');
   logo.classList.add('invertLogo');
+  logo.classList.add('selected');
 });
 
 const location = document.createElement('div');

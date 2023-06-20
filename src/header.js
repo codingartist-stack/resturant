@@ -9,6 +9,11 @@ logo.classList.add('logoFont');
 logo.textContent = `Willow's Waffles`;
 nav.appendChild(logo);
 
+logo.addEventListener('click', (event) => {
+  logo.classList.remove('logoFont');
+  logo.classList.add('invertLogo');
+});
+
 const location = document.createElement('div');
 location.classList.add('tab');
 location.id = 'locationTab';

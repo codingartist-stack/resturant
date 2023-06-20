@@ -18,6 +18,8 @@
 body {
   background-color: #f8ecd1;
   font-family: 'Lato-Regular';
+  margin: 0px;
+  padding: 0px;
 }
 
 .navigation {
@@ -29,7 +31,7 @@ body {
 }
 
 .tab {
-  padding: 10px;
+  padding: 20px;
 }
 
 .tab:hover {

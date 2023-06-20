@@ -11,7 +11,7 @@ logo.textContent = `Willow's Waffles`;
 nav.appendChild(logo);
 
 logo.addEventListener('click', (event) => {
-  logo.classList.remove('logoFont');
+  logo.classList.remove('mainLogo');
   logo.classList.add('invertLogo');
   logo.classList.add('selected');
 });
@@ -21,12 +21,6 @@ location.classList.add('tab');
 location.id = 'locationTab';
 location.textContent = 'Hours and Locations';
 nav.appendChild(location);
-
-const home = document.createElement('div');
-home.classList.add('tab');
-home.id = 'homeTab';
-home.textContent = 'Home';
-nav.appendChild(home);
 
 const menu = document.createElement('div');
 menu.classList.add('tab');

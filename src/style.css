@@ -41,13 +41,14 @@ body {
 .mainLogo {
   font-family: 'Lobster-Regular';
   font-size: 32px;
-  color: #f8ecd1;
-  background-color: #85586f;
+  color: #85586f;
+  background-color: #f8ecd1;
 }
 
 .invertLogo {
   font-family: 'Lobster-Regular';
-  color: #85586f;
+  color: #f8ecd1;
+  background-color: none;
   font-size: 32px;
 }
 

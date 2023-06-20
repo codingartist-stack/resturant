@@ -34,7 +34,7 @@ body {
   padding: 20px;
 }
 
-.tab:hover {
+.tab:hover .mainLogo:hover {
   color: #f8ecd1;
   background-color: #ac7d88;
 }
@@ -44,6 +44,7 @@ body {
   font-size: 32px;
   color: #85586f;
   background-color: #f8ecd1;
+  padding: 10px;
 }
 
 .invertLogo {

@@ -6,7 +6,7 @@ header.appendChild(nav);
 
 const logo = document.createElement('div');
 logo.classList.add('mainLogo');
-logo.classList.add('tab');
+// logo.classList.add('tab');
 logo.textContent = `Willow's Waffles`;
 nav.appendChild(logo);
 

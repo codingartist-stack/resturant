@@ -1,3 +1,17 @@
+:root {
+  --lightest-color: #f8ecd1;
+  --lighter-color: #deb6ab;
+  --mid-color: #ac7d88;
+  --darkest-color: #85586f;
+}
+
+/* colors 
+#f8ecd1 - cream
+#deb6ab - peach
+#ac7d88 - purple peach
+#85586f - muted purple
+*/
+
 @font-face {
   font-family: 'Lobster-Regular';
   src: url('./fonts/Lobster-Regular.ttf');
@@ -8,15 +22,8 @@
   src: url(./fonts/Lato-Regular.ttf);
 }
 
-/* colors 
-#f8ecd1 - cream
-#deb6ab - peach
-#ac7d88 - purple peach
-#85586f - muted purple
-*/
-
 body {
-  background-color: #f8ecd1;
+  background-color: var(--lightest-color);
   font-family: 'Lato-Regular';
   margin: 0px;
   padding: 0px;
@@ -27,7 +34,7 @@ body {
   gap: 20px;
   justify-content: space-around;
   align-items: center;
-  background-color: #deb6ab;
+  background-color: var(--lighter-color);
   flex-wrap: wrap;
   padding-top: 10px;
 }
@@ -39,33 +46,33 @@ body {
 .mainLogo {
   font-family: 'Lobster-Regular';
   font-size: 32px;
-  color: #85586f;
-  background-color: #f8ecd1;
+  color: var(--darkest-color);
+  background-color: var(--lightest-color);
   padding: 10px;
 }
 
 .invertLogo {
   font-family: 'Lobster-Regular';
-  color: #f8ecd1;
+  color: var(--lightest-color);
   background-color: none;
   font-size: 32px;
   padding: 10px;
 }
 
 .selected {
-  background-color: #f8ecd1;
+  background-color: var(--lightest-color);
   border-radius: 16px 16px 0px 0px;
 }
 
 .tab:hover,
 .mainLogo:hover,
 .invertLogo:hover {
-  color: #f8ecd1;
-  background-color: #85586f;
+  color: var(--lightest-color);
+  background-color: var(--darkest-color);
   border-radius: 16px 16px 0px 0px;
 }
 
 .selected:hover {
-  background-color: #ac7d88;
+  background-color: var(--mid-color);
   border-radius: 16px 16px 0px 0px;
 }

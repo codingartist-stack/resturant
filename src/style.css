@@ -28,6 +28,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: #deb6ab;
+  flex-wrap: wrap;
 }
 
 .tab {

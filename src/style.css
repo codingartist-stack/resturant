@@ -34,11 +34,6 @@ body {
   padding: 20px;
 }
 
-.tab:hover .mainLogo:hover {
-  color: #f8ecd1;
-  background-color: #ac7d88;
-}
-
 .mainLogo {
   font-family: 'Lobster-Regular';
   font-size: 32px;
@@ -52,12 +47,16 @@ body {
   color: #f8ecd1;
   background-color: none;
   font-size: 32px;
+  padding: 10px;
 }
 
 .selected {
   background-color: #f8ecd1;
 }
 
-.selected:hover {
-  background-color: #85586f;
+.tab:hover,
+.mainLogo:hover,
+.invertLogo:hover {
+  color: #f8ecd1;
+  background-color: #ac7d88;
 }

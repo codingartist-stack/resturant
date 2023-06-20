@@ -34,7 +34,7 @@ body {
   gap: 20px;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--lighter-color);
+  background-color: var(--mid-color);
   flex-wrap: wrap;
   padding-top: 10px;
 }
@@ -67,12 +67,6 @@ body {
 .tab:hover,
 .mainLogo:hover,
 .invertLogo:hover {
-  color: var(--lightest-color);
-  background-color: var(--darkest-color);
-  border-radius: 16px 16px 0px 0px;
-}
-
-.selected:hover {
-  background-color: var(--mid-color);
+  background-color: var(--lighter-color);
   border-radius: 16px 16px 0px 0px;
 }

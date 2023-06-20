@@ -29,6 +29,7 @@ body {
   align-items: center;
   background-color: #deb6ab;
   flex-wrap: wrap;
+  padding-top: 10px;
 }
 
 .tab {
@@ -53,6 +54,7 @@ body {
 
 .selected {
   background-color: #f8ecd1;
+  border-radius: 16px 16px 0px 0px;
 }
 
 .tab:hover,
@@ -60,8 +62,10 @@ body {
 .invertLogo:hover {
   color: #f8ecd1;
   background-color: #85586f;
+  border-radius: 16px 16px 0px 0px;
 }
 
 .selected:hover {
   background-color: #ac7d88;
+  border-radius: 16px 16px 0px 0px;
 }

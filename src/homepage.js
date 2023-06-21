@@ -2,6 +2,9 @@ const mainContentDiv = document.createElement('div');
 mainContentDiv.id = 'mainConent';
 document.body.appendChild(mainContentDiv);
 
+const welcome = document.createElement('div');
+welcome.innerText = 'Eat Waffles!';
+
 // BREAKFAST WAFFLES
 
 // Classic Waffle - Freshly baked golden waffle served with butter and maple syrup.

@@ -1,3 +1,5 @@
+import './homepage.js';
+
 const header = document.createElement('header');
 header.id = 'header';
 document.body.appendChild(header);

@@ -1,4 +1,6 @@
-const mainContentContainer = document.getElementById('content');
+const mainContentDiv = document.createElement('div');
+mainContentDiv.id = 'mainConent';
+document.body.appendChild(mainContentDiv);
 
 // BREAKFAST WAFFLES
 

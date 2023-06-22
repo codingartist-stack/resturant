@@ -125,11 +125,14 @@ body {
   color: var(--lightest-color);
   justify-content: center;
   justify-items: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
 }
 
 #menuImage {
   background-image: url(./images/waffle-878198_1280.jpg);
-  background-size: cover;
+  /* background-size: cover;
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: center; */
 }

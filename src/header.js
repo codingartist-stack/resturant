@@ -1,18 +1,30 @@
 import './homepage.js';
 
-const header = document.createElement('header');
-header.id = 'header';
-document.body.appendChild(header);
+function createNavigationTabs() {
+  const logo = document.createElement('div');
+  logo.classList.add('mainLogo');
+  logo.classList.add('selected');
+  logo.textContent = `Willow's Waffles`;
+  nav.appendChild(logo);
 
-const nav = document.createElement('nav');
-nav.classList.add('navigation');
-header.appendChild(nav);
+  const location = document.createElement('div');
+  location.classList.add('tab');
+  location.id = 'locationTab';
+  location.textContent = 'Hours and Locations';
+  nav.appendChild(location);
 
-const logo = document.createElement('div');
-logo.classList.add('mainLogo');
-logo.classList.add('selected');
-logo.textContent = `Willow's Waffles`;
-nav.appendChild(logo);
+  const menu = document.createElement('div');
+  menu.classList.add('tab');
+  menu.id = 'menuTab';
+  menu.textContent = 'Menu';
+  nav.appendChild(menu);
+
+  const about = document.createElement('div');
+  about.classList.add('tab');
+  about.id = 'aboutTab';
+  about.textContent = 'About';
+  nav.appendChild(about);
+}
 
 logo.addEventListener('click', (event) => {
   logo.classList.remove('invertLogo');
@@ -23,12 +35,6 @@ logo.addEventListener('click', (event) => {
   about.classList.remove('selected');
 });
 
-const location = document.createElement('div');
-location.classList.add('tab');
-location.id = 'locationTab';
-location.textContent = 'Hours and Locations';
-nav.appendChild(location);
-
 location.addEventListener('click', (event) => {
   location.classList.add('selected');
   logo.classList.remove('selected');
@@ -38,12 +44,6 @@ location.addEventListener('click', (event) => {
   about.classList.remove('selected');
 });
 
-const menu = document.createElement('div');
-menu.classList.add('tab');
-menu.id = 'menuTab';
-menu.textContent = 'Menu';
-nav.appendChild(menu);
-
 menu.addEventListener('click', (event) => {
   menu.classList.add('selected');
   logo.classList.remove('selected');
@@ -52,12 +52,6 @@ menu.addEventListener('click', (event) => {
   location.classList.remove('selected');
   about.classList.remove('selected');
 });
-
-const about = document.createElement('div');
-about.classList.add('tab');
-about.id = 'aboutTab';
-about.textContent = 'About';
-nav.appendChild(about);
 
 about.addEventListener('click', (event) => {
   about.classList.add('selected');

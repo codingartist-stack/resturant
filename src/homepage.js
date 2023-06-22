@@ -1,9 +1,6 @@
-const mainContentDiv = document.createElement('div');
-mainContentDiv.id = 'mainConent';
-document.body.appendChild(mainContentDiv);
-
-const welcome = document.createElement('div');
-welcome.innerText = 'Eat Waffles!';
+const homePageContent = document.createElement('div');
+homePageContent.id = 'homepage';
+document.body.appendChild(homePageContent);
 
 // BREAKFAST WAFFLES
 

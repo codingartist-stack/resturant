@@ -1,8 +1,13 @@
-import addMenu from './homepage.js';
+import addMenu from './menu.js';
 
 const nav = document.createElement('nav');
 nav.classList.add('navigation');
 document.body.appendChild(nav);
+
+const contentContainer = document.createElement('div');
+contentContainer.classList.add('contentContainer');
+contentContainer.innerText = ' ';
+document.body.appendChild(contentContainer);
 
 const logo = document.createElement('div');
 logo.classList.add('mainLogo');

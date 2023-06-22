@@ -1,9 +1,9 @@
-const menuContent = document.createElement('div');
-menuContent.id = 'menu';
-document.body.appendChild(menuContent);
+// const menuContent = document.createElement('div');
+// menuContent.id = 'menu';
+// contentContainer.appendChild(menuContent);
 
 export default function addMenu() {
-  menuContent.innerText = `BREAKFAST WAFFLES
+  contentContainer.innerText = `BREAKFAST WAFFLES
 Classic Waffle - Freshly baked golden waffle served with butter and maple syrup.
 Belgian Waffle - Light and fluffy Belgian waffle topped with fresh berries and whipped cream.
 Chocolate Lover's Waffle - Decadent chocolate-infused waffle drizzled with chocolate sauce, sprinkled with powdered sugar, and served with a side of vanilla ice cream.

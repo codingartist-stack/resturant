@@ -1,12 +1,8 @@
-import './homepage.js';
-
-const header = document.createElement('header');
-header.id = 'header';
-document.body.appendChild(header);
+import addMenu from './homepage.js';
 
 const nav = document.createElement('nav');
 nav.classList.add('navigation');
-header.appendChild(nav);
+document.body.appendChild(nav);
 
 const logo = document.createElement('div');
 logo.classList.add('mainLogo');
@@ -51,6 +47,7 @@ menu.addEventListener('click', (event) => {
   logo.classList.add('invertLogo');
   location.classList.remove('selected');
   about.classList.remove('selected');
+  addMenu();
 });
 
 const about = document.createElement('div');

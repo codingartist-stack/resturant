@@ -1,6 +1,18 @@
-const homePageContent = document.createElement('div');
-homePageContent.id = 'homepage';
-document.body.appendChild(homePageContent);
+const menuContent = document.createElement('div');
+menuContent.id = 'menu';
+document.body.appendChild(menuContent);
+
+export default function addMenu() {
+  menuContent.innerText = `BREAKFAST WAFFLES
+Classic Waffle - Freshly baked golden waffle served with butter and maple syrup.
+Belgian Waffle - Light and fluffy Belgian waffle topped with fresh berries and whipped cream.
+Chocolate Lover's Waffle - Decadent chocolate-infused waffle drizzled with chocolate sauce, sprinkled with powdered sugar, and served with a side of vanilla ice cream.
+Cinnamon Roll Waffle - Mouthwatering waffle infused with cinnamon and topped with cream cheese frosting and caramelized pecans.
+Fruity Blast Waffle - Waffle loaded with a medley of seasonal fruits, such as strawberries, blueberries, and bananas, accompanied by a dollop of Greek yogurt and a drizzle of honey.
+Savory Breakfast Waffle - Savory waffle topped with scrambled eggs, crispy bacon or sausage, cheddar cheese, and a touch of hot sauce.`;
+
+  return menuContent.innerText;
+}
 
 // BREAKFAST WAFFLES
 

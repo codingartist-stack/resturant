@@ -3,4 +3,4 @@ import './style.css';
 import './header.js';
 import './homepage.js';
 
-alert('am I connnected?');
+// alert('am I connnected?');

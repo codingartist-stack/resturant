@@ -57,6 +57,16 @@
   src: url(./fonts/Lato-LightItalic.ttf);
 }
 
+@font-face {
+  font-family: 'Lato-Thin';
+  src: url(./fonts/Lato-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-ThinItalic';
+  src: url(./fonts/Lato-ThinItalic.ttf);
+}
+
 body {
   background-color: var(--lightest-color);
   font-family: 'Lato-Regular';

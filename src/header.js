@@ -4,7 +4,7 @@ const nav = document.createElement('nav');
 nav.classList.add('navigation');
 document.body.appendChild(nav);
 
-const contentContainer = document.createElement('div');
+export const contentContainer = document.createElement('div');
 contentContainer.classList.add('contentContainer');
 contentContainer.innerText = ' ';
 document.body.appendChild(contentContainer);

@@ -3,9 +3,12 @@ import { contentContainer } from './header.js';
 const menuContent = document.createElement('div');
 menuContent.id = 'menu';
 
+const titleImage = document.createElement('div');
+
 export default function addMenu() {
   contentContainer.appendChild(menuContent);
-  menuContent.innerHTML = `<h3>BREAKFAST WAFFLES</h3>
+  menuContent.innerHTML = `
+  <h3>BREAKFAST WAFFLES</h3>
 
 <h4>Classic Waffle</h4>
 <p>Freshly baked golden waffle served with butter and maple syrup.<p> 

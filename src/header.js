@@ -1,4 +1,5 @@
 import addMenu from './menu.js';
+import clearContainer from './clearFunction.js';
 
 const nav = document.createElement('nav');
 nav.classList.add('navigation');
@@ -22,6 +23,7 @@ logo.addEventListener('click', (event) => {
   logo.classList.add('selected');
   menu.classList.remove('selected');
   about.classList.remove('selected');
+  clearContainer();
 });
 
 const location = document.createElement('div');

@@ -3,9 +3,16 @@ import { contentContainer } from './header.js';
 const menuContent = document.createElement('div');
 menuContent.id = 'menu';
 
-const titleImage = document.createElement('div');
+const menuTitleImage = document.createElement('div');
+menuTitleImage.classList.add('hero');
+menuTitleImage.id = 'menuImage';
+menuTitleImage.innerHTML = `
+  <h1>MENU</h1>
+  <p>Image by <a href="https://pixabay.com/users/patikaipmuzika-985051/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=878198">patikaipmuzika</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=878198">Pixabay</a></p>
+`;
 
 export default function addMenu() {
+  contentContainer.appendChild(menuTitleImage);
   contentContainer.appendChild(menuContent);
   menuContent.innerHTML = `
   <h3>BREAKFAST WAFFLES</h3>

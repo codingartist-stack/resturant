@@ -29,10 +29,11 @@ export default function addMenu() {
 <p>Waffle loaded with a medley of seasonal fruits, such as strawberries, blueberries, and bananas, accompanied by a dollop of Greek yogurt and a drizzle of honey.</p>
 <h4>Savory Breakfast Waffle</h4>
 <p>Savory waffle topped with scrambled eggs, crispy bacon or sausage, cheddar cheese, and a touch of hot sauce.</p>
+<br>
 
 <h3>SWEET CREATIONS</h3>
 
-<h4Nutella Paradise Waffle</h4> 
+<h4>Nutella Paradise Waffle</h4> 
 <p>Irresistible waffle smeared with Nutella, sliced bananas, and crushed hazelnuts, finished with a dusting of powdered sugar.</p>
 <h4>Red Velvet Waffle</h4> 
 <p>Rich red velvet waffle with cream cheese frosting, garnished with chocolate shavings.</p>
@@ -42,6 +43,7 @@ export default function addMenu() {
 <p>Waffle infused with apple pie spices, topped with warm cinnamon apples, a scoop of vanilla ice cream, and caramel sauce.</p>
 <h4>Peanut Butter & Jelly Waffle</h4> 
 <p>Waffle spread with creamy peanut butter and your choice of strawberry or grape jelly, served with a sprinkle of crushed peanuts.</p>
+<br>
 
 <h3>SAVORY DELIGHTS</h3>
 
@@ -53,6 +55,7 @@ export default function addMenu() {
 <p>Tomato, fresh mozzarella, and basil layered on a savory waffle, drizzled with balsamic glaze.</p>
 <h4>BBQ Pulled Pork Waffle</h4> 
 <p>Tender pulled pork smothered in tangy barbecue sauce, served on a waffle with coleslaw and pickles.</p>
+<br>
 
 <h3>SIDES<h3>
 
@@ -61,6 +64,7 @@ export default function addMenu() {
 <h4>Fresh Fruit Cup</h4>
 <h4>Yogurt Parfait</h4>
 <h4>Hash Browns</h4>
+<br>
 
 <h3>BEVERAGES</h3>
 

@@ -79,9 +79,10 @@ body {
   gap: 20px;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--mid-color);
+  background-color: var(--darkest-color);
   flex-wrap: wrap;
   padding-top: 10px;
+  color: var(--lightest-color);
 }
 
 .tab {
@@ -107,6 +108,7 @@ body {
 .selected {
   background-color: var(--lightest-color);
   border-radius: 16px 16px 0px 0px;
+  color: var(--darkest-color);
 }
 
 .tab:hover,
@@ -137,4 +139,19 @@ body {
 
 #menuImage {
   background-image: url(./images/waffle-878198_1280.jpg);
+}
+
+#menu {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#menu h3 {
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+#menu h4 {
+  margin-bottom: 16px;
 }

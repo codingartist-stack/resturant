@@ -163,3 +163,16 @@ h4 {
 #hourLocation {
   background-image: url(./images/wooden-2594768_1280.jpg);
 }
+
+#mapInformationGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+iframe {
+  max-width: 500px;
+  max-height: 500px;
+}

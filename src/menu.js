@@ -1,8 +1,5 @@
 import { contentContainer } from './header.js';
 
-const menuContent = document.createElement('div');
-menuContent.id = 'menu';
-
 const menuTitleImage = document.createElement('div');
 menuTitleImage.classList.add('hero');
 menuTitleImage.id = 'menuImage';
@@ -11,10 +8,9 @@ menuTitleImage.innerHTML = `
   <p>Image by <a href="https://pixabay.com/users/patikaipmuzika-985051/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=878198">patikaipmuzika</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=878198">Pixabay</a></p>
 `;
 
-export default function addMenu() {
-  contentContainer.appendChild(menuTitleImage);
-  contentContainer.appendChild(menuContent);
-  menuContent.innerHTML = `
+const menuContent = document.createElement('div');
+menuContent.id = 'menu';
+menuContent.innerHTML = `
 <h3>BREAKFAST WAFFLES</h3>
 
 <h4>Classic Waffle</h4>
@@ -74,6 +70,10 @@ export default function addMenu() {
 <h4>Milkshakes (Vanilla, Chocolate, Strawberry)</h4>
 <h4>Soft Drinks</h4>
 `;
+
+export default function addMenu() {
+  contentContainer.appendChild(menuTitleImage);
+  contentContainer.appendChild(menuContent);
 
   return menuContent.innerHTML;
 }

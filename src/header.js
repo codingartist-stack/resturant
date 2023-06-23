@@ -1,5 +1,6 @@
 import addMenu from './menu.js';
 import clearContainer from './clearFunction.js';
+import addLocationsHours from './hoursLocations.js';
 
 const nav = document.createElement('nav');
 nav.classList.add('navigation');
@@ -40,6 +41,7 @@ location.addEventListener('click', (event) => {
   menu.classList.remove('selected');
   about.classList.remove('selected');
   clearContainer();
+  addLocationsHours();
 });
 
 const menu = document.createElement('div');

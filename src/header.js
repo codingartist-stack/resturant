@@ -39,6 +39,7 @@ location.addEventListener('click', (event) => {
   logo.classList.add('invertLogo');
   menu.classList.remove('selected');
   about.classList.remove('selected');
+  clearContainer();
 });
 
 const menu = document.createElement('div');
@@ -54,6 +55,7 @@ menu.addEventListener('click', (event) => {
   logo.classList.add('invertLogo');
   location.classList.remove('selected');
   about.classList.remove('selected');
+  clearContainer();
   addMenu();
 });
 
@@ -70,4 +72,5 @@ about.addEventListener('click', (event) => {
   logo.classList.add('invertLogo');
   location.classList.remove('selected');
   menu.classList.remove('selected');
+  clearContainer();
 });

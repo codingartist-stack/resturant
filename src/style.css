@@ -130,9 +130,11 @@ body {
   background-position: center;
 }
 
+.hero h1 {
+  font-family: 'Lato-Bold';
+  font-size: xxx-large;
+}
+
 #menuImage {
   background-image: url(./images/waffle-878198_1280.jpg);
-  /* background-size: cover;
-  background-blend-mode: multiply;
-  background-position: center; */
 }

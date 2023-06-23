@@ -74,6 +74,15 @@ body {
   padding: 0px;
 }
 
+h3 {
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+h4 {
+  margin-bottom: 16px;
+}
+
 .navigation {
   display: flex;
   gap: 20px;
@@ -149,13 +158,4 @@ body {
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
-}
-
-#menu h3 {
-  font-size: x-large;
-  text-decoration: underline;
-}
-
-#menu h4 {
-  margin-bottom: 16px;
 }

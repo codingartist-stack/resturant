@@ -137,6 +137,10 @@ body {
   font-size: xxx-large;
 }
 
+.hero a {
+  color: var(--lighter-color);
+}
+
 #menuImage {
   background-image: url(./images/waffle-878198_1280.jpg);
 }

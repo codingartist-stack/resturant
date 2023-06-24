@@ -12,7 +12,7 @@ const aboutContainer = document.createElement('div');
 aboutContainer.id = 'aboutContainer';
 
 const aboutWoman = document.createElement('div');
-aboutWoman.innerHTML = `<img src='./images/food-preparation.jpg' alt='Woman Preparing flour'>`;
+// aboutWoman.innerHTML = `<img src='./images/food-preparation.jpg' alt='Woman Preparing flour'>`;
 
 const aboutContent = document.createElement('div');
 aboutContent.id = 'about';

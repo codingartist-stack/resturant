@@ -106,6 +106,13 @@ h4 {
   padding: 10px;
 }
 
+.heroLogo {
+  font-family: 'Lobster-Regular';
+  font-size: 48px;
+  color: var(--lightest-color);
+  padding: 10px;
+}
+
 .invertLogo {
   font-family: 'Lobster-Regular';
   color: var(--lightest-color);
@@ -179,4 +186,14 @@ iframe {
 
 #aboutImage {
   background-image: url(./images/waffles-2190961_1280.jpg);
+}
+
+#aboutContainer {
+  display: grid;
+  padding: 20px;
+  justify-content: center;
+}
+
+#homeHeroImage {
+  background-image: url(./images/coffee-waffles.jpg);
 }

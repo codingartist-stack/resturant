@@ -2,6 +2,7 @@ import addMenu from './menu.js';
 import clearContainer from './clearFunction.js';
 import addLocationsHours from './hoursLocations.js';
 import addAbout from './about.js';
+import addHomePage from './homePage.js';
 
 const nav = document.createElement('nav');
 nav.classList.add('navigation');
@@ -17,6 +18,7 @@ logo.classList.add('mainLogo');
 logo.classList.add('selected');
 logo.textContent = `Willow's Waffles`;
 nav.appendChild(logo);
+addHomePage();
 
 logo.addEventListener('click', (event) => {
   logo.classList.remove('invertLogo');
@@ -26,6 +28,7 @@ logo.addEventListener('click', (event) => {
   menu.classList.remove('selected');
   about.classList.remove('selected');
   clearContainer();
+  addHomePage();
 });
 
 const location = document.createElement('div');

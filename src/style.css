@@ -80,7 +80,12 @@ h3 {
 }
 
 h4 {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
+  font-family: 'Lato-Bold';
+}
+
+p {
+  margin-top: 5px;
 }
 
 .navigation {

@@ -1,11 +1,11 @@
 import { contentContainer } from './header';
 
 const aboutHero = document.createElement('div');
-aboutHero.classList.add(hero);
-aboutHero.ad = 'aboutImage';
+aboutHero.classList.add('hero');
+aboutHero.id = 'aboutImage';
 aboutHero.innerHTML = `
     <h1>About Us</h1>
-    <p></p>
+    <p>Image by <a href="https://pixabay.com/users/congerdesign-509903/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2190961">congerdesign</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2190961">Pixabay</a></p>
 `;
 
 const aboutContent = document.createElement('div');

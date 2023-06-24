@@ -176,3 +176,7 @@ iframe {
   max-width: 500px;
   max-height: 500px;
 }
+
+#aboutImage {
+  background-image: url(./images/waffles-2190961_1280.jpg);
+}

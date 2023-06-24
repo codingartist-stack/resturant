@@ -74,6 +74,4 @@ menuContent.innerHTML = `
 export default function addMenu() {
   contentContainer.appendChild(menuTitleImage);
   contentContainer.appendChild(menuContent);
-
-  return menuContent.innerHTML;
 }

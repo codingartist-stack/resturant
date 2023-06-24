@@ -76,4 +76,5 @@ about.addEventListener('click', (event) => {
   location.classList.remove('selected');
   menu.classList.remove('selected');
   clearContainer();
+  addAbout();
 });

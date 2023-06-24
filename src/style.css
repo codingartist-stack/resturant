@@ -99,6 +99,13 @@ p {
   color: var(--lightest-color);
 }
 
+footer {
+  padding: 10px;
+  background-color: var(--darkest-color);
+  width: 100%;
+  height: 200px;
+}
+
 .tab {
   padding: 20px;
 }

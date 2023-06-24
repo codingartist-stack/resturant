@@ -1,6 +1,7 @@
 import addMenu from './menu.js';
 import clearContainer from './clearFunction.js';
 import addLocationsHours from './hoursLocations.js';
+import addAbout from './about.js';
 
 const nav = document.createElement('nav');
 nav.classList.add('navigation');

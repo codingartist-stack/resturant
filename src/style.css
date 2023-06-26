@@ -233,3 +233,24 @@ iframe {
 #about {
   max-width: 60%;
 }
+
+#homeButtonContainer {
+  display: grid;
+  border-radius: 7px;
+  gap: 20px;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  height: max-content;
+  padding: 20px;
+}
+
+.homePageButton {
+  height: 250px;
+  color: var(--lightest-color);
+  background-color: var(--mid-color);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  font-size: larger;
+  font-family: 'Lato-Bold';
+}

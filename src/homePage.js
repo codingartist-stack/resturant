@@ -1,4 +1,7 @@
 import { contentContainer } from './header';
+import clearContainer from './clearFunction.js';
+import addLocationsHours from './hoursLocations.js';
+import addAbout from './about.js';
 
 const homePageHero = document.createElement('div');
 homePageHero.classList.add('homeHeroImage');

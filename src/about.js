@@ -3,7 +3,7 @@ import foodPrep from './images/food-preparation.jpg';
 
 const aboutHero = document.createElement('div');
 aboutHero.classList.add('hero');
-aboutHero.id = 'aboutImage';
+aboutHero.classList.add('aboutImage');
 aboutHero.innerHTML = `
     <h1>About Us</h1>
     <p>Image by <a href="https://pixabay.com/users/congerdesign-509903/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2190961">congerdesign</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2190961">Pixabay</a></p>

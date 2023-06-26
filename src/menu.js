@@ -2,7 +2,7 @@ import { contentContainer } from './header.js';
 
 const menuTitleImage = document.createElement('div');
 menuTitleImage.classList.add('hero');
-menuTitleImage.id = 'menuImage';
+menuTitleImage.classList.add('menuImage');
 menuTitleImage.innerHTML = `
   <h1>MENU</h1>
   <p>Image by <a href="https://pixabay.com/users/patikaipmuzika-985051/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=878198">patikaipmuzika</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=878198">Pixabay</a></p>

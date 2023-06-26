@@ -177,7 +177,7 @@ footer {
   color: var(--lighter-color);
 }
 
-#menuImage {
+.menuImage {
   background-image: url(./images/waffle-878198_1280.jpg);
 }
 
@@ -188,7 +188,7 @@ footer {
   padding-bottom: 25px;
 }
 
-#hourLocation {
+.hourLocation {
   background-image: url(./images/wooden-2594768_1280.jpg);
 }
 
@@ -206,7 +206,7 @@ iframe {
   max-height: 500px;
 }
 
-#aboutImage {
+.aboutImage {
   background-image: url(./images/waffles-2190961_1280.jpg);
 }
 
@@ -216,7 +216,7 @@ iframe {
   justify-content: center;
 }
 
-#homeHeroImage {
+.homeHeroImage {
   background-image: url(./images/coffee-waffles.jpg);
 }
 

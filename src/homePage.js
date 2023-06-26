@@ -1,7 +1,7 @@
 import { contentContainer } from './header';
 
 const homePageHero = document.createElement('div');
-homePageHero.id = 'homeHeroImage';
+homePageHero.classList.add('homeHeroImage');
 homePageHero.classList.add('hero');
 homePageHero.innerHTML = `
 <div class='heroLogo'>Willow's Waffles</div>

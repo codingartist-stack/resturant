@@ -3,7 +3,6 @@ import clearContainer from './clearFunction.js';
 import addLocationsHours from './hoursLocations.js';
 import addAbout from './about.js';
 import addHomePage from './homePage.js';
-import { hoursLocationButton } from './homePage.js';
 
 const nav = document.createElement('nav');
 nav.classList.add('navigation');

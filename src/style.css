@@ -237,6 +237,7 @@ iframe {
   line-height: 1.5;
   font-size: large;
   padding: 10px;
+  max-width: 1000px;
 }
 
 #ownerImage {

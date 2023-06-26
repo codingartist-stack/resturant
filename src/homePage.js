@@ -1,5 +1,9 @@
 import { contentContainer } from './header';
 import { logo } from './header';
+import clearContainer from './clearFunction';
+import addLocationsHours from './hoursLocations';
+import addMenu from './menu';
+import addAbout from './about';
 
 const homePageHero = document.createElement('div');
 homePageHero.classList.add('homeHeroImage');
@@ -19,17 +23,32 @@ hoursLocationButton.classList.add('homePageButton');
 hoursLocationButton.innerText = 'Hours and Locations';
 homePageContainer.appendChild(hoursLocationButton);
 
+hoursLocationButton.addEventListener('click', (event) => {
+  clearContainer();
+  addLocationsHours();
+});
+
 const menuButton = document.createElement('button');
 menuButton.classList.add('homePageButton');
 menuButton.classList.add('menuImage');
 menuButton.innerText = 'the Menu';
 homePageContainer.appendChild(menuButton);
 
+menuButton.addEventListener('click', (event) => {
+  clearContainer();
+  addMenu();
+});
+
 const aboutButton = document.createElement('button');
 aboutButton.classList.add('homePageButton');
 aboutButton.classList.add('aboutImage');
 aboutButton.innerText = 'About Us';
 homePageContainer.appendChild(aboutButton);
+
+aboutButton.addEventListener('click', (event) => {
+  clearContainer();
+  addAbout();
+});
 
 export default function addHomePage() {
   logo.classList.remove('invertLogo');

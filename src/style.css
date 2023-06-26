@@ -230,14 +230,16 @@ iframe {
   display: flex;
   gap: 20px;
   padding: 20px;
+  flex-wrap: wrap;
+}
+
+#aboutText {
+  width: min-content;
 }
 
 #ownerImage {
-  max-width: 30%;
-}
-
-#about {
-  max-width: 60%;
+  border-radius: 7px;
+  height: 250px;
 }
 
 #homeButtonContainer {

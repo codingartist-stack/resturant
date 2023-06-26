@@ -234,7 +234,9 @@ iframe {
 }
 
 #aboutText {
-  width: min-content;
+  line-height: 1.5;
+  font-size: large;
+  padding: 10px;
 }
 
 #ownerImage {

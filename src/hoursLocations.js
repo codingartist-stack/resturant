@@ -1,5 +1,10 @@
 import { contentContainer } from './header';
 
+import { logo } from './header';
+import { location } from './header';
+import { menu } from './header';
+import { about } from './header';
+
 const hourLocationHero = document.createElement('div');
 hourLocationHero.classList.add('hero');
 hourLocationHero.classList.add('hourLocation');
@@ -51,6 +56,12 @@ mapInformationContainer.appendChild(locationContent);
 mapInformationContainer.appendChild(mapContainer);
 
 export default function addLocationsHours() {
+  location.classList.add('selected');
+  logo.classList.remove('selected');
+  logo.classList.remove('mainLogo');
+  logo.classList.add('invertLogo');
+  menu.classList.remove('selected');
+  about.classList.remove('selected');
   contentContainer.appendChild(hourLocationHero);
   contentContainer.appendChild(mapInformationContainer);
 }

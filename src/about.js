@@ -1,5 +1,9 @@
 import { contentContainer } from './header';
 import foodPrep from './images/food-preparation.jpg';
+import { logo } from './header';
+import { location } from './header';
+import { menu } from './header';
+import { about } from './header';
 
 const aboutHero = document.createElement('div');
 aboutHero.classList.add('hero');
@@ -27,6 +31,12 @@ aboutContent.innerText = `Introducing Willow, a passionate and creative individu
 aboutContainer.appendChild(aboutContent);
 
 export default function addAbout() {
+  about.classList.add('selected');
+  logo.classList.remove('selected');
+  logo.classList.remove('mainLogo');
+  logo.classList.add('invertLogo');
+  location.classList.remove('selected');
+  menu.classList.remove('selected');
   contentContainer.appendChild(aboutHero);
   contentContainer.appendChild(aboutContainer);
 }

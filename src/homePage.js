@@ -1,7 +1,5 @@
 import { contentContainer } from './header';
-import clearContainer from './clearFunction.js';
-import addLocationsHours from './hoursLocations.js';
-import addAbout from './about.js';
+import { logo } from './header';
 
 const homePageHero = document.createElement('div');
 homePageHero.classList.add('homeHeroImage');
@@ -34,6 +32,9 @@ aboutButton.innerText = 'About Us';
 homePageContainer.appendChild(aboutButton);
 
 export default function addHomePage() {
+  logo.classList.remove('invertLogo');
+  logo.classList.add('mainLogo');
+  logo.classList.add('selected');
   contentContainer.appendChild(homePageHero);
   contentContainer.appendChild(homePageContainer);
 }

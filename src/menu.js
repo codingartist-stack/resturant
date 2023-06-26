@@ -1,4 +1,8 @@
 import { contentContainer } from './header.js';
+import { logo } from './header';
+import { location } from './header';
+import { menu } from './header';
+import { about } from './header';
 
 const menuTitleImage = document.createElement('div');
 menuTitleImage.classList.add('hero');
@@ -72,6 +76,12 @@ menuContent.innerHTML = `
 `;
 
 export default function addMenu() {
+  menu.classList.add('selected');
+  logo.classList.remove('selected');
+  logo.classList.remove('mainLogo');
+  logo.classList.add('invertLogo');
+  location.classList.remove('selected');
+  about.classList.remove('selected');
   contentContainer.appendChild(menuTitleImage);
   contentContainer.appendChild(menuContent);
 }

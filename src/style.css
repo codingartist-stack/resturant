@@ -149,9 +149,15 @@ footer {
 
 .tab:hover,
 .mainLogo:hover,
-.invertLogo:hover {
+.invertLogo:hover,
+.homePageButton:hover {
   background-color: var(--lighter-color);
   border-radius: 10px;
+  color: var(--darkest-color);
+}
+
+.homePageButton:hover {
+  color: var(--lightest-color);
 }
 
 .hero {
@@ -255,4 +261,5 @@ iframe {
   font-size: larger;
   font-family: 'Lato-Bold';
   border: none;
+  border-radius: 10px;
 }

@@ -185,6 +185,7 @@ footer {
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
+  padding-bottom: 25px;
 }
 
 #hourLocation {
@@ -197,6 +198,7 @@ footer {
   justify-content: space-evenly;
   padding: 20px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 iframe {
@@ -216,4 +218,18 @@ iframe {
 
 #homeHeroImage {
   background-image: url(./images/coffee-waffles.jpg);
+}
+
+#aboutContainer {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+#ownerImage {
+  max-width: 30%;
+}
+
+#about {
+  max-width: 60%;
 }

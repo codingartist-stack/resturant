@@ -1,4 +1,5 @@
 import { contentContainer } from './header';
+import foodPrep from './images/food-preparation.jpg';
 
 const aboutHero = document.createElement('div');
 aboutHero.classList.add('hero');
@@ -12,6 +13,12 @@ const aboutContainer = document.createElement('div');
 aboutContainer.id = 'aboutContainer';
 
 // can I do alt on a div?
+const ownerImage = new Image();
+ownerImage.src = foodPrep;
+ownerImage.alt =
+  'Woman at a cooking work bench and rubbing flour in her hands.';
+ownerImage.id = 'ownerImage';
+aboutContainer.appendChild(ownerImage);
 
 const aboutContent = document.createElement('div');
 aboutContent.id = 'about';
